@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 
-pickle_in = open("C:/Users/Sushri Supravat/Project/edtech_model.pkl", 'rb')
+pickle_in = open("edtech_model.pkl", 'rb')
 model = pickle.load(pickle_in)
 
 
